@@ -17,12 +17,12 @@ from config import (
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""✨ **Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
+        f"""🌀 **Welcome 😊 [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
 💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) allows you to play music on groups through the new Telegram's voice chats!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+🔊. **Find out all the Bot's commands and how they work by clicking on the » 🏷 Commands button!**
 
-❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
+❔ **මෙම බොට් භාවිතා කරන්නේ කෙසේදැයි දැන ගැනීමට » ❓ Basic Guide button!**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -34,19 +34,19 @@ async def cbstart(_, query: CallbackQuery):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("💝 Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("🔥 Owner", url=f"https://t.me/Anujasupulsara"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 My Group", url=f"https://t.me/anujasu"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 My Channel", url=f"https://t.me/Musicworldanu"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/VeezMusic"
+                        "🌐 Source Code", url="https://github.com/Anuja2003"
                     )
                 ],
             ]
@@ -85,7 +85,7 @@ async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""🏮 **here is the basic commands**
 
-🎧 [ GROUP VC CMD ]
+🎯 [ 💞🎧MUSIC & VIDEO W🌍RLD™🎧💞   CMD ]
 
 /play (song name) - play song from youtube
 /ytp (song name) - play song directly from youtube 
@@ -96,7 +96,7 @@ async def cbbasic(_, query: CallbackQuery):
 /vsong (video name) - download video from youtube detailed
 /lyric - (song name) lyrics scrapper
 
-🎧 [ CHANNEL VC CMD ]
+🎯 [ 💞🎧MUSIC & VIDEO W🌍RLD™🎧💞   CMD ]
 
 /cplay - stream music on channel voice chat
 /cplayer - show the song in streaming
