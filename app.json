@@ -1,9 +1,9 @@
 {
-    "name": "Veez Music Bot",
-    "logo": "https://telegra.ph/file/9dd9b20abcda2d7bb6725.png",
-    "description": "veez music allow you to stream music trought the telegram voice chat feature.",
+    "name": "ALEESA Music Bot",
+    "logo": "https://telegra.ph/file/91189e6a925683868095d.jpg",
+    "description": "ALEESA music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/levina-lab/veezmusic",
+    "repository": "https://github.com/Anuja2003/veezmusic",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -11,80 +11,80 @@
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "fill with your bot token from @BotFather",
+            "description": "fill with your bot token from @BotFather (@BotFather වෙතින් ඔබේ බොට් ටෝකනය පුරවන්න)",
             "required": true
         },
         "BOT_NAME": {
-            "description": "fill with your music bot name.",
+            "description": "fill with your music bot name (ඔබේ සංගීත බොට් නම පුරවන්න).",
             "required": true,
             "value": ""
         },
         "OWNER_ID": {
-            "description": "fill with your telegram id as the owner of the bot",
+            "description": "fill with your telegram id as the owner of the bot (බොට්හි හිමිකරු ලෙස ඔබේ telegram හැඳුනුම්පත පුරවන්න)",
             "required": true,
             "value": ""
         },
         "DATABASE_URL": {
-            "description": "fill with the mongodb url you get from cloud.mongodb.com",
+            "description": "fill with the mongodb url you get from cloud.mongodb.com (ඔබට cloud.mongodb.com වෙතින් ලැබෙන mongodb url එක පුරවන්න)",
             "required": true,
             "value": ""
         },
         "LOG_CHANNEL": {
-            "description": "create a private channel and get the channel id, add your bot as admin to the channel too",
+            "description": "create a private channel and get the channel id, add your bot as admin to the channel too (පුද්ගලික නාලිකාවක් සාදා නාලිකා හැඳුනුම්පත ලබා ගන්න, නාලිකාවට ඔබේ බොට් පරිපාලක ලෙස එක් කරන්න)",
             "required": true,
             "value": ""
         },
         "BOT_USERNAME": {
-            "description": "fill with your bot username without @",
+            "description": "fill with your bot username without @ (@ නොමැතිව ඔබගේ බොට් පරිශීලක නාමය පුරවන්න)",
             "required": true,
-            "value": "veezmusicbot"
+            "value": "songdownload_music_world_bot"
         },
         "ASSISTANT_NAME": {
-            "description": "fill with the assistant username without @",
+            "description": "fill with the assistant username without @ (@ නොමැතිව සහකාර පරිශීලක නාමය පුරවන්න)",
             "required": true,
-            "value": "veezasisstant"
+            "value": "musicworldassistant"
         },
         "BG_IMAGE": {
-            "description": "fill with your costum background image link",
+            "description": "fill with your costum background image link (ඔබගේ background රූප සබැඳිය පුරවන්න)",
             "required": false,
             "value": "https://telegra.ph/file/20147c4f049e2c1f2f248.png"
         },
         "OWNER_NAME": {
-            "description": "fill with your username without @",
+            "description": "fill with your username without @ (@ නොමැතිව ඔබගේ පරිශීලක නාමය පුරවන්න)",
             "required": false,
-            "value": "dlwrml"
+            "value": "AnujaSupulsara"
         },
         "ALIVE_NAME": {
-            "description": "fill with the nickname of your telegram account",
+            "description": "fill with the nickname of your telegram account (ඔබගේ ටෙලිග්‍රාම් ගිණුමේ අන්වර්ථ නාමය පුරවන්න)",
             "required": false,
-            "value": "Levina"
+            "value": "AnujaSupulsara"
         },
         "API_ID": {
-            "description": "your Api ID from my.telegram.org/apps",
+            "description": "your Api ID from my.telegram.org/apps ( ඔබේ Api ID එක my.telegram.org/apps)",
             "required": true
         },
         "API_HASH": {
-            "description": "your Api Hash from my.telegram.org/apps",
+            "description": "your Api Hash from my.telegram.org/apps ( ඔබේ Api Hash එක my.telegram.org/apps)",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "fill with the user id who can access all function in your bot (separate with space).",
+            "description": "fill with the user id who can access all function in your bot (separate with space) (ඔබගේ බොට් හි සියලුම කාර්යයන් වෙත ප්‍රවේශ විය හැකි පරිශීලක හැඳුනුම්පත පුරවන්න) ",
             "required": true
         },
         "DURATION_LIMIT": {
-            "description": "max duration for music to download (in minutes).",
+            "description": "max duration for music to download (in minutes) (සංගීතය බාගත කිරීම සඳහා උපරිම කාලය)",
             "required": true,
             "value": "40"
         },
         "UPDATES_CHANNEL": {
-            "description": "if you have channel fill the channel username here without @",
+            "description": "if you have channel fill the channel username here without @ (ඔබට නාලිකාව තිබේ නම් @ නොමැතිව නාලිකා පරිශීලක නාමය මෙහි පුරවන්න)",
             "required": false,
-            "value": "levinachannel"
+            "value": "Musicworldanu"
         },
         "GROUP_SUPPORT": {
-            "description": "if you have group fill the group username here without @",
+            "description": "if you have group fill the group username here without @ (ඔබට කණ්ඩායමක් ඇත්නම් @ නොමැතිව කණ්ඩායම් පරිශීලක නාමය පුරවන්න)",
             "required": false,
-            "value": "VeezSupportGroup"
+            "value": "anujasu"
         }
     },
     "buildpacks": [
