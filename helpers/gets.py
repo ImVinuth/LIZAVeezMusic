@@ -110,4 +110,4 @@ def bytes(size: float) -> str:
 
 
 async def ass_det(assistant: int):
-    print("😎 Aleesa🧚‍♀️❤️ MUSIC CORPORATION 😎")
+    print("LIZA🧚‍♀️❤️ MUSIC CORPORATION 😎")
