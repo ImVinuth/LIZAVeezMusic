@@ -3,7 +3,7 @@
     "logo": "https://telegra.ph/file/e4e73bc8873c422d656b3.jpg",
     "description": "LIZA music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/Anuja2003/veezmusic",
+    "repository": "https://github.com/Mrushan2021/VeezMusic.git",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
