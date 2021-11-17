@@ -1,7 +1,7 @@
 {
-    "name": "ALEESA Music Bot",
+    "name": "LIZA Music Bot",
     "logo": "https://telegra.ph/file/e4e73bc8873c422d656b3.jpg",
-    "description": "ALEESA music allow you to stream music trought the telegram voice chat feature.",
+    "description": "LIZA music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/Anuja2003/veezmusic",
     "stack": "container",
