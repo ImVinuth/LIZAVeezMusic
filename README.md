@@ -1,7 +1,7 @@
 # VeezMusicBot
 
 <div align="center">
- <img border-radius: 16px src="https://ibb.co/0qC0pW4" width="100" height="100"/>
+ <img border-radius: 16px src="https://en.ephoto360.com/2021/11/6196241201d0a.jpg-s299-b6" width="100" height="100"/>
   
   </a>
              
