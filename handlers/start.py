@@ -81,7 +81,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/Anuja2003/VeezMusic"
+                        "🌐 Entertainment Channel", url="https://t.me/musicszc"
                     )
                 ],
             ]
